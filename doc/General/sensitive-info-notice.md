@@ -3,6 +3,8 @@
 ### Using 'hidden' flag in GUI
 When a user sets a string as 'hidden' in 'EXPECT', then in config or in backups of config (i.e. $HOME/.config/pac/bak/pac.yml.0) there're
 strings like '53616c7-omited-848993645' inplace. These strings represent user input encoded, not encrypted.
+Note, that configs path has changed (from ~/.config/pac to ~/.config/asbru) for newer versions, but the warning is the same:
+'hidden' fields are encoded, not encrypted.
 
 ### GUI password
 GUI password does NOT encrypts your config entries - it alters only GUI window & startup - GUI window asks for a password.
